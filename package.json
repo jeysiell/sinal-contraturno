@@ -1,0 +1,12 @@
+{
+  "name": "sinal-contraturno",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node sinal/server.js",
+    "test": "npm --prefix sinal test"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  }
+}

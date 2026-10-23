@@ -1,0 +1,466 @@
+{
+  "monday_morning": [
+    {
+      "time": "07:20",
+      "name": "Início das atividades (07:20–08:10)",
+      "music": "musica1.mp3",
+      "duration": 12
+    },
+    {
+      "time": "08:10",
+      "name": "Atividades (08:10–09:00)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "09:00",
+      "name": "Intervalo (09:00–09:30)",
+      "music": "musica3.mp3",
+      "duration": 12
+    },
+    {
+      "time": "09:30",
+      "name": "Atividades (09:30–10:20)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "10:20",
+      "name": "Atividades (10:20–11:10)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "12:10",
+      "name": "Atividades (12:10–12:50)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "12:50",
+      "name": "Fim das atividades (manhã)",
+      "music": "musica1.mp3",
+      "duration": 12
+    }
+  ],
+  "monday_afternoon": [
+    {
+      "time": "12:30",
+      "name": "Início das atividades (12:30–13:00)",
+      "music": "musica1.mp3",
+      "duration": 12
+    },
+    {
+      "time": "13:10",
+      "name": "Atividades (13:10–14:00)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "14:00",
+      "name": "Atividades (14:00–14:50)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "14:50",
+      "name": "Intervalo (14:50–15:20)",
+      "music": "musica3.mp3",
+      "duration": 12
+    },
+    {
+      "time": "15:20",
+      "name": "Atividades (15:20–16:10)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "16:10",
+      "name": "Atividades (16:10–17:00)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "17:00",
+      "name": "Atividades (17:00–17:50)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "17:50",
+      "name": "Fim das atividades (tarde)",
+      "music": "musica1.mp3",
+      "duration": 12
+    }
+  ],
+  "tuesday_morning": [
+    {
+      "time": "07:20",
+      "name": "Início das atividades (07:20–08:10)",
+      "music": "musica1.mp3",
+      "duration": 12
+    },
+    {
+      "time": "08:10",
+      "name": "Atividades (08:10–09:00)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "09:00",
+      "name": "Intervalo (09:00–09:30)",
+      "music": "musica3.mp3",
+      "duration": 12
+    },
+    {
+      "time": "09:30",
+      "name": "Atividades (09:30–10:20)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "10:20",
+      "name": "Atividades (10:20–11:10)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "12:10",
+      "name": "Atividades (12:10–12:50)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "12:50",
+      "name": "Fim das atividades (manhã)",
+      "music": "musica1.mp3",
+      "duration": 12
+    }
+  ],
+  "tuesday_afternoon": [
+    {
+      "time": "12:30",
+      "name": "Início das atividades (12:30–13:00)",
+      "music": "musica1.mp3",
+      "duration": 12
+    },
+    {
+      "time": "13:10",
+      "name": "Atividades (13:10–14:00)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "14:00",
+      "name": "Atividades (14:00–14:50)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "14:50",
+      "name": "Intervalo (14:50–15:20)",
+      "music": "musica3.mp3",
+      "duration": 12
+    },
+    {
+      "time": "15:20",
+      "name": "Atividades (15:20–16:10)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "16:10",
+      "name": "Atividades (16:10–17:00)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "17:00",
+      "name": "Atividades (17:00–17:50)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "17:50",
+      "name": "Fim das atividades (tarde)",
+      "music": "musica1.mp3",
+      "duration": 12
+    }
+  ],
+  "wednesday_morning": [
+    {
+      "time": "07:20",
+      "name": "Início das atividades (07:20–08:10)",
+      "music": "musica1.mp3",
+      "duration": 12
+    },
+    {
+      "time": "08:10",
+      "name": "Atividades (08:10–09:00)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "09:00",
+      "name": "Intervalo (09:00–09:30)",
+      "music": "musica3.mp3",
+      "duration": 12
+    },
+    {
+      "time": "09:30",
+      "name": "Atividades (09:30–10:20)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "10:20",
+      "name": "Atividades (10:20–11:10)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "12:10",
+      "name": "Atividades (12:10–12:50)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "12:50",
+      "name": "Fim das atividades (manhã)",
+      "music": "musica1.mp3",
+      "duration": 12
+    }
+  ],
+  "wednesday_afternoon": [
+    {
+      "time": "12:30",
+      "name": "Início das atividades (12:30–13:00)",
+      "music": "musica1.mp3",
+      "duration": 12
+    },
+    {
+      "time": "13:10",
+      "name": "Atividades (13:10–14:00)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "14:00",
+      "name": "Atividades (14:00–14:50)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "14:50",
+      "name": "Intervalo (14:50–15:20)",
+      "music": "musica3.mp3",
+      "duration": 12
+    },
+    {
+      "time": "15:20",
+      "name": "Atividades (15:20–16:10)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "16:10",
+      "name": "Atividades (16:10–17:00)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "17:00",
+      "name": "Atividades (17:00–17:50)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "17:50",
+      "name": "Fim das atividades (tarde)",
+      "music": "musica1.mp3",
+      "duration": 12
+    }
+  ],
+  "thursday_morning": [
+    {
+      "time": "07:20",
+      "name": "Início das atividades (07:20–08:10)",
+      "music": "musica1.mp3",
+      "duration": 12
+    },
+    {
+      "time": "08:10",
+      "name": "Atividades (08:10–09:00)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "09:00",
+      "name": "Intervalo (09:00–09:30)",
+      "music": "musica3.mp3",
+      "duration": 12
+    },
+    {
+      "time": "09:30",
+      "name": "Atividades (09:30–10:20)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "10:20",
+      "name": "Atividades (10:20–11:10)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "12:10",
+      "name": "Atividades (12:10–12:50)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "12:50",
+      "name": "Fim das atividades (manhã)",
+      "music": "musica1.mp3",
+      "duration": 12
+    }
+  ],
+  "thursday_afternoon": [
+    {
+      "time": "12:30",
+      "name": "Início das atividades (12:30–13:00)",
+      "music": "musica1.mp3",
+      "duration": 12
+    },
+    {
+      "time": "13:10",
+      "name": "Atividades (13:10–14:00)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "14:00",
+      "name": "Atividades (14:00–14:50)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "14:50",
+      "name": "Intervalo (14:50–15:20)",
+      "music": "musica3.mp3",
+      "duration": 12
+    },
+    {
+      "time": "15:20",
+      "name": "Atividades (15:20–16:10)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "16:10",
+      "name": "Atividades (16:10–17:00)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "17:00",
+      "name": "Atividades (17:00–17:50)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "17:50",
+      "name": "Fim das atividades (tarde)",
+      "music": "musica1.mp3",
+      "duration": 12
+    }
+  ],
+  "friday_morning": [
+    {
+      "time": "07:20",
+      "name": "Início das atividades (07:20–08:10)",
+      "music": "musica1.mp3",
+      "duration": 12
+    },
+    {
+      "time": "08:10",
+      "name": "Atividades (08:10–09:00)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "09:00",
+      "name": "Intervalo (09:00–09:30)",
+      "music": "musica3.mp3",
+      "duration": 12
+    },
+    {
+      "time": "09:30",
+      "name": "Atividades (09:30–10:20)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "10:20",
+      "name": "Atividades (10:20–11:10)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "12:10",
+      "name": "Atividades (12:10–12:50)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "12:50",
+      "name": "Fim das atividades (manhã)",
+      "music": "musica1.mp3",
+      "duration": 12
+    }
+  ],
+  "friday_afternoon": [
+    {
+      "time": "12:30",
+      "name": "Início das atividades (12:30–13:00)",
+      "music": "musica1.mp3",
+      "duration": 12
+    },
+    {
+      "time": "13:10",
+      "name": "Atividades (13:10–14:00)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "14:00",
+      "name": "Atividades (14:00–14:50)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "14:50",
+      "name": "Intervalo (14:50–15:20)",
+      "music": "musica3.mp3",
+      "duration": 12
+    },
+    {
+      "time": "15:20",
+      "name": "Atividades (15:20–16:10)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "16:10",
+      "name": "Atividades (16:10–17:00)",
+      "music": "musica2.mp3",
+      "duration": 12
+    },
+    {
+      "time": "17:00",
+      "name": "Fim das atividades (tarde)",
+      "music": "musica1.mp3",
+      "duration": 12
+    }
+  ]
+}

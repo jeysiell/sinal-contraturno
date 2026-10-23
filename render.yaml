@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: sinal-contraturno
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm ci --prefix sinal && npm test --prefix sinal
+    startCommand: npm start
+    healthCheckPath: /api/schedule
+    envVars:
+      - key: NODE_VERSION
+        value: 24
