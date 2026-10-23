@@ -9,6 +9,8 @@ Painel e backend do sinal escolar, publicados juntos no Render.
 - `sinal/data/horarios.json`: horários por dia da semana e turno.
 - `render.yaml`: configuração do serviço gratuito no Render.
 
+Todos os 74 sinais usam exclusivamente `minha-vida-viagem-refrao.mp3`: um corte de 12 segundos do refrão de **Minha Vida É Uma Viagem**, extraído de 1:46,25 a 1:58,25 do arquivo fornecido. O áudio tem volume normalizado e uma saída suave. O mesmo trecho é o padrão do acionamento manual e de novos horários.
+
 ## Executar localmente
 
 Requer Node.js 24.

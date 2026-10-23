@@ -138,7 +138,7 @@ test('agendador toca uma vez, respeita sexta e troca de dia sem recarregar', asy
   vm.runInContext('schedule = data; initAudio = record;', context);
   now = new Date(2026, 9, 23, 17, 0, 0, 400);
   vm.runInContext('schedulerTick(); schedulerTick();', context);
-  assert.deepEqual(calls, [['musica1.mp3', 12]]);
+  assert.deepEqual(calls, [['minha-vida-viagem-refrao.mp3', 12]]);
   now = new Date(2026, 9, 24, 0, 0);
   vm.runInContext('schedulerTick()', context);
   assert.equal(getElement('currentSignalTime').textContent, '--:--');

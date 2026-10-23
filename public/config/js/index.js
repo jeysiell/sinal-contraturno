@@ -53,7 +53,7 @@ function unlockAudio() {
   return audioContext.resume();
 }
 
-async function initAudio(music = 'sino.mp3', duration = 12) {
+async function initAudio(music = window.SinalSchedule.defaultMusic, duration = 12) {
   try {
     await unlockAudio();
     if (audioContext.state !== 'running') throw new Error('Clique em Ativar som e iniciar para liberar o áudio.');

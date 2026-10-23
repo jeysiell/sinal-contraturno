@@ -8,11 +8,9 @@
   const periods = Object.fromEntries(Object.entries(days).flatMap(([day, label]) => [
     [`${day}_morning`, `${label} — Manhã`], [`${day}_afternoon`, `${label} — Tarde`],
   ]));
+  const defaultMusic = 'minha-vida-viagem-refrao.mp3';
   const musicLabels = {
-    'sino.mp3': 'Sino padrão', 'musica1.mp3': 'Tu Me Sondas',
-    'musica2.mp3': 'Eu Amo Minha Escola', 'musica3.mp3': 'My Lighthouse',
-    'musica4.mp3': 'Amor Teimoso', 'musica5.mp3': 'Minha vida é uma viagem',
-    'musica6.mp3': 'A Bíblia',
+    [defaultMusic]: 'Minha Vida É Uma Viagem — Refrão',
   };
   const apiUrl = root.location?.protocol === 'file:'
     ? 'http://localhost:3000/api/schedule' : '/api/schedule';
@@ -60,7 +58,7 @@
     return data;
   }
 
-  const api = { periods, musicLabels, escapeHtml, signalsForDate, nextSignal, currentPeriod, populatePeriods, request };
+  const api = { periods, defaultMusic, musicLabels, escapeHtml, signalsForDate, nextSignal, currentPeriod, populatePeriods, request };
   root.SinalSchedule = api;
   if (typeof module !== 'undefined') module.exports = api;
 })(typeof window !== 'undefined' ? window : globalThis);

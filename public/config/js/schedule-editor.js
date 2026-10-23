@@ -1,5 +1,5 @@
 window.createScheduleEditor = function ({ tableId, filterId }) {
-  const { periods, musicLabels, escapeHtml, currentPeriod, populatePeriods, request } = window.SinalSchedule;
+  const { periods, defaultMusic, musicLabels, escapeHtml, currentPeriod, populatePeriods, request } = window.SinalSchedule;
   const byId = id => document.getElementById(id);
   const table = byId(tableId);
   const filter = byId(filterId);
@@ -27,11 +27,11 @@ window.createScheduleEditor = function ({ tableId, filterId }) {
     periodSelect.value = period || currentPeriod();
     byId('timeInput').value = signal?.time || '';
     byId('nameInput').value = signal?.name || '';
-    musicSelect.value = signal?.music || 'musica1.mp3';
+    musicSelect.value = signal?.music || defaultMusic;
     // Preserva durações e arquivos válidos já cadastrados no JSON.
     for (const [select, value, label] of [
       [durationSelect, String(signal?.duration || 12), `${signal?.duration || 12} segundos`],
-      [musicSelect, signal?.music || 'musica1.mp3', signal?.music || 'Tu Me Sondas'],
+      [musicSelect, signal?.music || defaultMusic, musicLabels[signal?.music || defaultMusic] || signal.music],
     ]) {
       if (!Array.from(select.options).some(option => option.value === value)) {
         const option = document.createElement('option');
